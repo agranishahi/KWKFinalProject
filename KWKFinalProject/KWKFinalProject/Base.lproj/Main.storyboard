@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nzC-Qp-N0S">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,19 +41,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ifh-5b-5k0">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <tabBarItem title="Profile" image="person.circle" catalog="system" id="xSX-AJ-LB6">
-                                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="Add" image="plus.circle" catalog="system" id="ZMv-qk-1cc"/>
-                                    <tabBarItem title="Points" image="lasso.sparkles" catalog="system" id="ddt-vw-1gq"/>
-                                    <tabBarItem title="Help" image="questionmark.circle" catalog="system" id="tpZ-JV-bev"/>
-                                </items>
-                                <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROFILE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Za-lk-5AU">
                                 <rect key="frame" x="111" y="89" width="193" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -65,12 +52,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="qqY-sW-4TT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-410.14492753623193" y="56.919642857142854"/>
+            <point key="canvasLocation" x="-1752" y="751"/>
         </scene>
-        <!--View Controller-->
+        <!--Add-->
         <scene sceneID="Jt0-F3-IEs">
             <objects>
                 <viewController id="fKN-GF-1Xi" sceneMemberID="viewController">
@@ -78,18 +66,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eA6-fd-NDu">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Profile" image="person.circle" catalog="system" id="lsu-Rn-xCW"/>
-                                    <tabBarItem title="Add" image="plus.circle" catalog="system" id="Ps1-rQ-I22"/>
-                                    <tabBarItem title="Points" image="lasso.sparkles" catalog="system" id="get-0W-5R1"/>
-                                    <tabBarItem title="Help" image="questionmark.circle" catalog="system" id="f7T-Fg-dcI"/>
-                                </items>
-                                <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7B-kx-k8B">
                                 <rect key="frame" x="43" y="258" width="328" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -130,10 +106,11 @@
                         <viewLayoutGuide key="safeArea" id="g5e-TH-KAt"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Add" image="plus.circle" catalog="system" id="8rS-eA-YYb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="caB-tz-ApG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1809" y="57"/>
+            <point key="canvasLocation" x="-954" y="751"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qmx-bv-w0Z">
@@ -143,18 +120,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iu4-Uv-CSD">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Profile" image="person.circle" catalog="system" id="XDU-zf-KKM"/>
-                                    <tabBarItem title="Add" image="plus.circle" catalog="system" id="N9n-9g-4oj"/>
-                                    <tabBarItem title="Points" image="lasso.sparkles" catalog="system" id="9ot-Zg-z8d"/>
-                                    <tabBarItem title="Help" image="questionmark.circle" catalog="system" id="lTP-wy-Wla"/>
-                                </items>
-                                <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SHOPPING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cre-Ip-Pnf">
                                 <rect key="frame" x="86" y="202" width="242" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -235,10 +200,11 @@
                         <viewLayoutGuide key="safeArea" id="ho6-fb-IGv"/>
                         <color key="backgroundColor" red="0.031372549019607843" green="0.054901960784313725" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="R3w-bM-7SV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ao8-Yn-23l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="751"/>
+            <point key="canvasLocation" x="-1751" y="1470"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LA8-Ux-Jvw">
@@ -386,18 +352,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mIn-MO-7Qk">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Profile" image="person.circle" catalog="system" id="Mmu-JS-6uY"/>
-                                    <tabBarItem title="Add" image="plus.circle" catalog="system" id="ayF-fe-ofI"/>
-                                    <tabBarItem title="Points" image="lasso.sparkles" catalog="system" id="SZr-K2-1G4"/>
-                                    <tabBarItem title="Help" image="questionmark.circle" catalog="system" id="IFA-FQ-AdY"/>
-                                </items>
-                                <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ELECTRICITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVi-y1-6UO">
                                 <rect key="frame" x="58" y="108" width="298" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -409,10 +363,11 @@
                         <viewLayoutGuide key="safeArea" id="Emq-LF-iEB"/>
                         <color key="backgroundColor" red="0.031372549019607843" green="0.054901960784313725" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="hbX-WM-e3o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ahU-PH-sGB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1809" y="751"/>
+            <point key="canvasLocation" x="-955" y="1470"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YDi-r2-ptH">
@@ -643,18 +598,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oQW-gv-vMh">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Profile" image="person.circle" catalog="system" id="2j7-AD-sbL"/>
-                                    <tabBarItem title="Add" image="plus.circle" catalog="system" id="S81-Gb-UTD"/>
-                                    <tabBarItem title="Points" image="lasso.sparkles" catalog="system" id="e8X-13-jic"/>
-                                    <tabBarItem title="Help" image="questionmark.circle" catalog="system" id="GBM-o7-Kq4"/>
-                                </items>
-                                <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TRANSPORTATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T81-KT-4wg">
                                 <rect key="frame" x="20" y="114" width="370" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -666,12 +609,13 @@
                         <viewLayoutGuide key="safeArea" id="LFR-aU-f6M"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="upd-h7-Z2p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ed-Ws-R93" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2553.6231884057975" y="750.66964285714278"/>
+            <point key="canvasLocation" x="-175" y="1470"/>
         </scene>
-        <!--View Controller-->
+        <!--Points-->
         <scene sceneID="gKf-9R-uze">
             <objects>
                 <viewController id="EZI-ux-FSf" sceneMemberID="viewController">
@@ -693,18 +637,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yf4-Du-M4O">
-                                <rect key="frame" x="1" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Profile" image="person.circle" catalog="system" id="cPJ-5N-wvW"/>
-                                    <tabBarItem title="Add" image="plus.circle" catalog="system" id="Rw9-rZ-YTi"/>
-                                    <tabBarItem title="Points" image="lasso.sparkles" catalog="system" id="m2S-IW-KcB"/>
-                                    <tabBarItem title="Help" image="questionmark.circle" catalog="system" id="brZ-gs-vqk"/>
-                                </items>
-                                <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="POINTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPz-FL-7Ck">
                                 <rect key="frame" x="121" y="152" width="174" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -734,12 +666,13 @@
                         <viewLayoutGuide key="safeArea" id="hFQ-Qy-n9r"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Points" image="lasso.sparkles" catalog="system" id="LJt-pF-Pok"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPq-i1-NE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="318.84057971014494" y="56.919642857142854"/>
+            <point key="canvasLocation" x="-175" y="751"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="ynR-38-bn5">
             <objects>
                 <viewController id="go2-db-pkI" sceneMemberID="viewController">
@@ -754,18 +687,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZaU-a0-U9G">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Profile" image="person.circle" catalog="system" id="XD2-1R-GCw"/>
-                                    <tabBarItem title="Add" image="plus.circle" catalog="system" id="8Q8-Xg-rEM"/>
-                                    <tabBarItem title="Points" image="lasso.sparkles" catalog="system" id="IaC-bH-4G3"/>
-                                    <tabBarItem title="Help" image="questionmark.circle" catalog="system" id="5gL-gd-tOT"/>
-                                </items>
-                                <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBq-dp-Ypt">
                                 <rect key="frame" x="149" y="94" width="115" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -841,10 +762,33 @@
                         <viewLayoutGuide key="safeArea" id="s0i-lE-9Ez"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="questionmark.circle" catalog="system" id="mJN-Yy-3rS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z5Z-t7-riJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1073.913043478261" y="56.919642857142854"/>
+            <point key="canvasLocation" x="599" y="751"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="R0b-YW-jm7">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nzC-Qp-N0S" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ctg-gp-nII">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.59999999999999998" green="0.76078431369999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="XXQ-KY-Wx0"/>
+                        <segue destination="fKN-GF-1Xi" kind="relationship" relationship="viewControllers" id="lK1-Va-XM3"/>
+                        <segue destination="EZI-ux-FSf" kind="relationship" relationship="viewControllers" id="Mza-EN-fTQ"/>
+                        <segue destination="go2-db-pkI" kind="relationship" relationship="viewControllers" id="m6u-j9-ay0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s3I-1g-XKD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-410.14492753623193" y="56.919642857142854"/>
         </scene>
     </scenes>
     <resources>
