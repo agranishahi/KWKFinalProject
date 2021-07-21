@@ -14,32 +14,47 @@ class TransportationViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func bikingTapped(_ sender: UIButton) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            
+            if segue.identifier == "biking" {
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = 100
+                
+            } else if segue.identifier == "bus"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = 75
+                
+            } else if segue.identifier == "carpool"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = 50
+                
+            } else if segue.identifier == "lowGasCar"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -75
+                
+            } else if segue.identifier == "mediumGasCar"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -110
+                
+            } else if segue.identifier == "highGasCar"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -150
+                
+            } else if segue.identifier == "lowElectricCar"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -50
+                
+            } else if segue.identifier == "mediumElectricCar"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -75
+                
+            } else if segue.identifier == "highGasCar"{
+                let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -100
+            }
+        
     }
-    
-    @IBAction func busTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func carpooledTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func lowGasTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func mediumGasTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func highGasTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func lowElectricTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func mediumElectricTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func highElectricTapped(_ sender: UIButton) {
-    }
+
     
     /*
     // MARK: - Navigation

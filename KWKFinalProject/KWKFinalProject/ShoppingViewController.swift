@@ -18,18 +18,18 @@ class ShoppingViewController: UIViewController {
             
             if segue.identifier == "normalShopping" {
                 let destinationController = segue.destination as! PointsViewController
-                
                 destinationController.pointValueCount = -75
+                
             } else if
                 segue.identifier == "thriftShopping"{
                 let destinationController = segue.destination as! PointsViewController
-                
                 destinationController.pointValueCount = 75
+                
             } else if segue.identifier == "onlineShopping"{
                 let destinationController = segue.destination as! PointsViewController
-                
                 destinationController.pointValueCount = 120
             }
+        
     }
     
     
