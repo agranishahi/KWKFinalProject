@@ -34,6 +34,9 @@
                                 <state key="normal" title="Enter Name">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="nameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Etc-A1-vha"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MIu-nP-WAe">
                                 <rect key="frame" x="98" y="451" width="219" height="34"/>
@@ -53,10 +56,14 @@
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="qqY-sW-4TT"/>
+                    <connections>
+                        <outlet property="enterName" destination="MIu-nP-WAe" id="9tz-1N-hy4"/>
+                        <outlet property="name" destination="3jP-n2-FjR" id="yae-UU-HKc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1752" y="751"/>
+            <point key="canvasLocation" x="-1752.1739130434785" y="750.66964285714278"/>
         </scene>
         <!--Add-->
         <scene sceneID="Jt0-F3-IEs">
@@ -74,6 +81,9 @@
                                 <state key="normal" title="Electricity 💡">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="48A-fu-V6u" kind="show" id="CKM-7m-dU9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uj7-mD-SSD">
                                 <rect key="frame" x="43" y="508" width="328" height="54"/>
@@ -83,6 +93,9 @@
                                 <state key="normal" title="Transportation 🚗">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="K7a-Sc-JRO" kind="show" id="YP7-47-sSt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1d-wT-x4H">
                                 <rect key="frame" x="43" y="388" width="328" height="54"/>
@@ -94,6 +107,9 @@
 </string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="HQc-Ce-cF6" kind="show" id="6tT-2X-JQk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ADD POINTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2n-e6-mWd">
                                 <rect key="frame" x="62" y="137" width="290" height="55"/>
@@ -117,7 +133,7 @@
             <objects>
                 <viewController id="HQc-Ce-cF6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LkB-IP-dxh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SHOPPING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cre-Ip-Pnf">
@@ -211,7 +227,7 @@
             <objects>
                 <viewController id="48A-fu-V6u" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TzG-8R-QNk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turned lights off when uneeded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEp-EM-uCG">
@@ -374,7 +390,7 @@
             <objects>
                 <viewController id="K7a-Sc-JRO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qyu-Z5-4nv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Biking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6t-1t-JyW">
