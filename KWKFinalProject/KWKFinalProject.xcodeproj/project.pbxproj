@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3867CF3526A867CB0086C46B /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867CF3426A867CB0086C46B /* ShoppingViewController.swift */; };
+		3867CF3726A867F90086C46B /* ElectricityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867CF3626A867F90086C46B /* ElectricityViewController.swift */; };
+		3867CF3926A8680D0086C46B /* TransportationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867CF3826A8680D0086C46B /* TransportationViewController.swift */; };
+		3867CF3B26A8689C0086C46B /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867CF3A26A8689C0086C46B /* PointsViewController.swift */; };
+		38756F1E26A8AE3D008C906F /* pointsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38756F1D26A8AE3D008C906F /* pointsClass.swift */; };
 		388D772126A73F20007AC136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D772026A73F20007AC136 /* AppDelegate.swift */; };
 		388D772326A73F20007AC136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D772226A73F20007AC136 /* SceneDelegate.swift */; };
 		388D772526A73F20007AC136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D772426A73F20007AC136 /* ViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3867CF3426A867CB0086C46B /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		3867CF3626A867F90086C46B /* ElectricityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityViewController.swift; sourceTree = "<group>"; };
+		3867CF3826A8680D0086C46B /* TransportationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationViewController.swift; sourceTree = "<group>"; };
+		3867CF3A26A8689C0086C46B /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		38756F1D26A8AE3D008C906F /* pointsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointsClass.swift; sourceTree = "<group>"; };
 		388D771D26A73F20007AC136 /* KWKFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWKFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388D772026A73F20007AC136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		388D772226A73F20007AC136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +115,11 @@
 				388D772226A73F20007AC136 /* SceneDelegate.swift */,
 				388D772426A73F20007AC136 /* ViewController.swift */,
 				388D772626A73F20007AC136 /* Main.storyboard */,
+				3867CF3A26A8689C0086C46B /* PointsViewController.swift */,
+				3867CF3826A8680D0086C46B /* TransportationViewController.swift */,
+				3867CF3626A867F90086C46B /* ElectricityViewController.swift */,
+				3867CF3426A867CB0086C46B /* ShoppingViewController.swift */,
+				38756F1D26A8AE3D008C906F /* pointsClass.swift */,
 				388D772C26A73F22007AC136 /* Assets.xcassets */,
 				388D772E26A73F22007AC136 /* LaunchScreen.storyboard */,
 				388D773126A73F22007AC136 /* Info.plist */,
@@ -262,9 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				388D772526A73F20007AC136 /* ViewController.swift in Sources */,
+				3867CF3B26A8689C0086C46B /* PointsViewController.swift in Sources */,
 				388D772126A73F20007AC136 /* AppDelegate.swift in Sources */,
 				388D772B26A73F20007AC136 /* KWKFinalProject.xcdatamodeld in Sources */,
 				388D772326A73F20007AC136 /* SceneDelegate.swift in Sources */,
+				3867CF3926A8680D0086C46B /* TransportationViewController.swift in Sources */,
+				3867CF3726A867F90086C46B /* ElectricityViewController.swift in Sources */,
+				38756F1E26A8AE3D008C906F /* pointsClass.swift in Sources */,
+				3867CF3526A867CB0086C46B /* ShoppingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
