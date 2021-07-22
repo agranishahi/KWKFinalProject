@@ -214,8 +214,8 @@
                                     <segue destination="EZI-ux-FSf" kind="show" identifier="onlineShopping" id="NEq-H8-iqL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+120 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqB-fM-WZ7">
-                                <rect key="frame" x="65" y="488" width="82" height="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-120 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqB-fM-WZ7">
+                                <rect key="frame" x="65" y="488" width="75" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -255,7 +255,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="lightsTapped:" destination="48A-fu-V6u" eventType="touchUpInside" id="WFr-67-sIz"/>
+                                    <segue destination="EZI-ux-FSf" kind="show" identifier="offLights" id="aYW-T9-KQe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+100 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXo-LK-39p">
@@ -281,7 +281,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="acTapped:" destination="48A-fu-V6u" eventType="touchUpInside" id="yEv-aS-3CC"/>
+                                    <segue destination="EZI-ux-FSf" kind="show" identifier="airOn" id="W4U-zx-Iuf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-120 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSV-K7-BP6">
@@ -307,7 +307,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="shortShowerTapped:" destination="48A-fu-V6u" eventType="touchUpInside" id="2Q8-kz-pvD"/>
+                                    <segue destination="EZI-ux-FSf" kind="show" identifier="shortShower" id="k7p-Cc-8M5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+50 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BN4-q9-G11">
@@ -333,7 +333,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="longShowerTapped:" destination="48A-fu-V6u" eventType="touchUpInside" id="cPj-P3-zhX"/>
+                                    <segue destination="EZI-ux-FSf" kind="show" identifier="longShower" id="lsF-mv-5HH"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-50 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd9-w9-fqa">
@@ -359,7 +359,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="laundryTapped:" destination="48A-fu-V6u" eventType="touchUpInside" id="zWA-vY-ptE"/>
+                                    <segue destination="EZI-ux-FSf" kind="show" identifier="laundry" id="6Xp-5G-5Pt"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-10 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOr-Bk-zwU">
@@ -385,7 +385,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="unpluggedTapped:" destination="48A-fu-V6u" eventType="touchUpInside" id="Kvc-ZV-HXZ"/>
+                                    <segue destination="EZI-ux-FSf" kind="show" identifier="unplug" id="DlN-Y1-PL2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+75 points" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3j4-Sm-ROW">
@@ -410,7 +410,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ahU-PH-sGB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-955" y="1671"/>
+            <point key="canvasLocation" x="-955.07246376811599" y="1670.7589285714284"/>
         </scene>
         <!--Transportation View Controller-->
         <scene sceneID="YDi-r2-ptH">
@@ -718,8 +718,8 @@
                                 <rect key="frame" x="47" y="234" width="321" height="330"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~Okay~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32i-Mv-0ry">
-                                <rect key="frame" x="149" y="407" width="118" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~Okay~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32i-Mv-0ry">
+                                <rect key="frame" x="82" y="407" width="251" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="30"/>
                                 <color key="textColor" red="0.8901960784313725" green="0.94901960784313721" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -745,7 +745,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPq-i1-NE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-175" y="751"/>
+            <point key="canvasLocation" x="-175.36231884057972" y="750.66964285714278"/>
         </scene>
         <!--Item-->
         <scene sceneID="ynR-38-bn5">
@@ -867,7 +867,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DwB-vg-WRt"/>
+        <segue reference="xfT-eB-xWN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="circle (2)" width="512" height="512"/>

@@ -15,30 +15,31 @@ class ElectricityViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func lightsTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func unpluggedTapped(_ sender: UIButton) {
-    }
-    @IBAction func acTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func shortShowerTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func longShowerTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func laundryTapped(_ sender: UIButton) {
-    }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any? ) {        
+        if segue.identifier == "offLights" {
+            let destinationController = segue.destination as! PointsViewController
+            destinationController.pointValueCount = 100
+            
+        } else if segue.identifier == "unplug" {
+            let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = 75
+                
+        } else if segue.identifier == "airOn" {
+            let destinationController = segue.destination as! PointsViewController
+                    destinationController.pointValueCount = -120
+        } else if segue.identifier == "shortShower" {
+            let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = 50
+            
+        } else if segue.identifier == "longShower" {
+            let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -50
+            
+        } else if segue.identifier == "laundry" {
+            let destinationController = segue.destination as! PointsViewController
+                destinationController.pointValueCount = -10
+            
+           }
     }
-    */
-
 }

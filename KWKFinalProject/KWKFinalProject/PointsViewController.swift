@@ -23,21 +23,25 @@ class PointsViewController: UIViewController {
         let newPoints = startingPoints! + pointValueCount
         
         pointTotal.text = String(newPoints)
-    }
-    
-    
-
-    /*
-        if total < 50 {
+        
+ 
+   
+        if pointValueCount < 50 {
             pointStatus.text = "really bad"
-        }  else if total <= 150 {
+        }  else if pointValueCount <= 150 {
             pointStatus.text = "okay"
-        } else if total <= 200 {
+        } else if pointValueCount < 200 {
             pointStatus.text = "good"
         } else {
             pointStatus.text = "amazing!"
         }
+      
+        
+    }
     
+   
+/*
+     
     func changePointTotal () {
         
         pointTotal.text = "\(total)"
@@ -55,3 +59,4 @@ class PointsViewController: UIViewController {
     */
 
 }
+

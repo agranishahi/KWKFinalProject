@@ -27,7 +27,7 @@ class ShoppingViewController: UIViewController {
                 
             } else if segue.identifier == "onlineShopping"{
                 let destinationController = segue.destination as! PointsViewController
-                destinationController.pointValueCount = 120
+                destinationController.pointValueCount = -120
             }
         
     }
