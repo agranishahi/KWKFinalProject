@@ -26,14 +26,14 @@ class PointsViewController: UIViewController {
         
  
    
-        if pointValueCount < 50 {
-            pointStatus.text = "really bad"
-        }  else if pointValueCount <= 150 {
-            pointStatus.text = "okay"
-        } else if pointValueCount < 200 {
-            pointStatus.text = "good"
+        if newPoints < 50 {
+            pointStatus.text = "~Really bad~"
+        }  else if newPoints <= 150 {
+            pointStatus.text = "~Okay~"
+        } else if newPoints < 200 {
+            pointStatus.text = "~Good~"
         } else {
-            pointStatus.text = "amazing!"
+            pointStatus.text = "~Amazing!~"
         }
       
         

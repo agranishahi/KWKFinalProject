@@ -51,6 +51,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="XHZ-cl-III">
+                                <rect key="frame" x="20" y="44" width="88" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -118,6 +122,10 @@
                                     <segue destination="HQc-Ce-cF6" kind="show" id="6tT-2X-JQk"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="nlo-vG-oKa">
+                                <rect key="frame" x="20" y="44" width="88" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g5e-TH-KAt"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -229,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ao8-Yn-23l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3932" y="1440"/>
+            <point key="canvasLocation" x="-2191" y="1671"/>
         </scene>
         <!--Electricity View Controller-->
         <scene sceneID="LA8-Ux-Jvw">
@@ -683,7 +691,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ed-Ws-R93" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1268" y="1515"/>
+            <point key="canvasLocation" x="335" y="1653"/>
         </scene>
         <!--Points-->
         <scene sceneID="gKf-9R-uze">
@@ -732,6 +740,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="TnI-vp-j8o">
+                                <rect key="frame" x="20" y="38" width="88" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hFQ-Qy-n9r"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -833,6 +845,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="b85-Qa-voL">
+                                <rect key="frame" x="20" y="44" width="88" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s0i-lE-9Ez"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -867,11 +883,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xfT-eB-xWN"/>
+        <segue reference="t7Z-qB-iM1"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="circle (2)" width="512" height="512"/>
         <image name="lasso.sparkles" catalog="system" width="122" height="128"/>
+        <image name="logo-removebg-preview" width="507" height="492"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
         <image name="questionmark.circle" catalog="system" width="128" height="121"/>
