@@ -759,7 +759,7 @@
             </objects>
             <point key="canvasLocation" x="-175.36231884057972" y="750.66964285714278"/>
         </scene>
-        <!--Item-->
+        <!--Help-->
         <scene sceneID="ynR-38-bn5">
             <objects>
                 <viewController id="go2-db-pkI" sceneMemberID="viewController">
@@ -853,7 +853,7 @@
                         <viewLayoutGuide key="safeArea" id="s0i-lE-9Ez"/>
                         <color key="backgroundColor" red="0.031372549020000001" green="0.054901960780000002" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="questionmark.circle" catalog="system" id="mJN-Yy-3rS"/>
+                    <tabBarItem key="tabBarItem" title="Help" image="questionmark.circle" catalog="system" id="mJN-Yy-3rS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z5Z-t7-riJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -883,7 +883,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="t7Z-qB-iM1"/>
+        <segue reference="bvh-Pp-sFa"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="circle (2)" width="512" height="512"/>
